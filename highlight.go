@@ -27,6 +27,7 @@ type highlighter struct {
 }
 
 // highlighterPool allows the reuse of highlighters to avoid allocations.
+// TODO necessary or just makes it slower?
 var highlighterPool = sync.Pool{
 	New: func() interface{} {
 		hl := new(highlighter)

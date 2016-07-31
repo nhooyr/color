@@ -3,6 +3,7 @@ package color
 import "fmt"
 
 // Format represents a format string with the highlight verbs fully parsed.
+// TODO interface
 type Format struct {
 	colored  string // highlight verbs replaced with their escape sequences
 	stripped string // highlight verbs stripped
