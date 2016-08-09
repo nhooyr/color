@@ -1,5 +1,7 @@
 # color [![GoDoc](https://godoc.org/github.com/nhooyr/color?status.svg)](https://godoc.org/github.com/nhooyr/color)
 
+__DEPRECATED__
+
 Color extends `fmt.Printf` with verbs for producing colored output.
 
 It has full terminfo support with [github.com/nhooyr/terminfo](https://github.com/nhooyr/terminfo)!
